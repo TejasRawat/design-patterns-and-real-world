@@ -1,5 +1,6 @@
-package command.context.driven;
+package command.context.driven.commands;
 
+import command.context.driven.context.CommandContext;
 import command.context.driven.model.Input2;
 import command.context.driven.model.Output2;
 

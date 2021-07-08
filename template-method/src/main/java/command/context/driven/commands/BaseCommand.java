@@ -1,4 +1,7 @@
-package command.context.driven;
+package command.context.driven.commands;
+
+import command.context.driven.context.CommandContext;
+import command.context.driven.exception.CommandException;
 
 public abstract class BaseCommand<CmdRequest, CmdResponse> implements Command<CommandContext> {
 

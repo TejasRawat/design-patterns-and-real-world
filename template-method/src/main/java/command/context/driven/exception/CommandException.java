@@ -1,4 +1,4 @@
-package command.context.driven;
+package command.context.driven.exception;
 
 public class CommandException extends RuntimeException {
 
