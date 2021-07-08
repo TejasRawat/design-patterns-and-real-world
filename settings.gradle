@@ -1,0 +1,3 @@
+rootProject.name = 'pattern-parent'
+include 'template-method'
+
