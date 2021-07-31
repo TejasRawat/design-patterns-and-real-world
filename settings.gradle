@@ -1,3 +1,4 @@
 rootProject.name = 'pattern-parent'
 include 'template-method'
+include 'singleton'
 

@@ -1,8 +1,8 @@
-package command.context.driven.commands;
+package pattern.command.context.driven.commands;
 
-import command.context.driven.context.CommandContext;
-import command.context.driven.model.Input2;
-import command.context.driven.model.Output2;
+import pattern.command.context.driven.context.CommandContext;
+import pattern.command.context.driven.model.Input2;
+import pattern.command.context.driven.model.Output2;
 
 public class ENTDepartmentReceptionCommand2 extends BaseCommand<Input2, Output2> {
 

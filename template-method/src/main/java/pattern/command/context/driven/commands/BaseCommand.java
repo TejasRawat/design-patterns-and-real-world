@@ -1,16 +1,17 @@
-package command.context.driven.commands;
+package pattern.command.context.driven.commands;
 
-import command.context.driven.context.CommandContext;
-import command.context.driven.exception.CommandException;
+import pattern.command.context.driven.context.CommandContext;
+import pattern.command.context.driven.exception.CommandException;
 
-public abstract class BaseCommand<CmdRequest, CmdResponse> implements Command<CommandContext> {
+public abstract class BaseCommand<CmdRequest, CmdResponse> implements Command<CommandContext, CommandContext> {
 
     @Override
-    public void execute(CommandContext commandContext) throws CommandException {
+    public CommandContext execute(CommandContext commandContext) throws CommandException {
         CmdRequest request = extractCmdRequest(commandContext);
         validateCmdRequest(request);
         CmdResponse cmdResponse = executeCmdRequest(request);
         attachCmdResponseToContext(cmdResponse);
+        return commandContext;
     }
 
     protected abstract void attachCmdResponseToContext(CmdResponse cmdResponse);

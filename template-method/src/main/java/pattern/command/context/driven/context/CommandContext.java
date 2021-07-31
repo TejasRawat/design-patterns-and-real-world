@@ -1,4 +1,4 @@
-package command.context.driven.context;
+package pattern.command.context.driven.context;
 
 import java.util.concurrent.ConcurrentHashMap;
 

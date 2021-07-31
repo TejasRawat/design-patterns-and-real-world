@@ -1,8 +1,8 @@
-package command.context.driven.commands;
+package pattern.command.context.driven.commands;
 
-import command.context.driven.context.CommandContext;
-import command.context.driven.model.Input3;
-import command.context.driven.model.Output3;
+import pattern.command.context.driven.context.CommandContext;
+import pattern.command.context.driven.model.Input3;
+import pattern.command.context.driven.model.Output3;
 
 public class ENTDoctorCommand3 extends BaseCommand<Input3, Output3> {
 

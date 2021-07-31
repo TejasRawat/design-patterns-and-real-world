@@ -1,8 +1,8 @@
-package command.context.driven.commands;
+package pattern.command.context.driven.commands;
 
-import command.context.driven.context.CommandContext;
-import command.context.driven.model.Input1;
-import command.context.driven.model.Output1;
+import pattern.command.context.driven.context.CommandContext;
+import pattern.command.context.driven.model.Input1;
+import pattern.command.context.driven.model.Output1;
 
 public class HospitalReceptionCommand1 extends BaseCommand<Input1, Output1> {
 

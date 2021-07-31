@@ -1,7 +1,7 @@
-package command.context.driven.executor;
+package pattern.command.context.driven.executor;
 
-import command.context.driven.commands.Command;
-import command.context.driven.context.CommandContext;
+import pattern.command.context.driven.commands.Command;
+import pattern.command.context.driven.context.CommandContext;
 
 import java.util.LinkedList;
 import java.util.List;
